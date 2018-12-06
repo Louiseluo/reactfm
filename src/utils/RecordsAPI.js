@@ -12,3 +12,5 @@ export const Create = (body) =>
 
 export const Update = (id,body) =>
     axios.put(`${api}/api/v1/records/${id}`,body);
+export const  remove = (id)=>
+    axios.delete(`${api}/api/v1/records/${id}`);

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Records from './components/Records';
 import * as serviceWorker from './serviceWorker';
+require('promise.prototype.finally').shim();
 
 ReactDOM.render(<Records />, document.getElementById('root'));
 
