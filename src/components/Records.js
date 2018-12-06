@@ -52,7 +52,7 @@ class Records extends Component {
             <table className="table table-bordered">
                 <thead>
                 <tr>
-                    <th>Date</th>
+                    <th>Date1</th>
                     <th>Title</th>
                     <th>Amount</th>
                     <th>Active</th>
